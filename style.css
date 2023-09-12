@@ -1,0 +1,128 @@
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+  }
+
+  body {
+      font-size: 100%;
+      background: linear-gradient(68deg, #3533cd 15%, #000000 80%);
+  }
+
+  .header-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 24px;
+  }
+
+  .logo-header {
+      height: 72px;
+  }
+
+  .nav-container {
+      display: flex;
+      gap: 32px;
+  }
+
+  .nav-item {
+      font-family: 'Sarala', sans-serif;
+      color: #F3D4B7;
+      font-weight: 400;
+      font-size: 18px;
+  }
+
+  .container {
+      margin-bottom: 48px;
+      border-top: 0.4px solid #F3D4B7;
+      padding-top: 48px;
+  }
+
+  .first-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .main-container-text-box {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+  }
+
+  .main-container-text-box-title {
+      font-family: 'Righteous', cursive;
+      font-weight: 400;
+      font-size: 65px;
+      color: #F3D4B7;
+  }
+
+  .main-container-text-box-subtitle {
+      font-family: 'Sarala', sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      color: #F3D4B7;
+  }
+
+  .main-container-text-box-button {
+      background-color: #FEAC7C;
+      width: 180px;
+      height: 60px;
+      border: none;
+      box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      font-family: 'Sarala', sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      color: #2F2325;
+  }
+
+  .main-container-text-box-button:hover {
+      background-color: rgba(196, 91, 82, 0.8);
+  }
+
+  .logo-main {
+      height: 430px;
+  }
+
+  .second-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      margin-top: 48px;
+  }
+
+
+  .second-container-title {
+      border-top: 0.4px solid #F3D4B7;
+      padding-top: 48px;
+      font-family: 'Righteous', cursive;
+      font-weight: 400;
+      font-size: 24px;
+      color: #FEAC7C;
+      margin-bottom: 16px;
+  }
+
+  .second-container-text {
+      font-family: 'Sarala', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      color: #F3D4B7;
+  }
+
+  .footer-container {
+      padding: 20px;
+      border-top: 0.4px solid #FFF2E7;
+  }
+
+  .logo-footer {
+      height: 80px;
+      display: block;
+      margin: 0 auto;
+  }
